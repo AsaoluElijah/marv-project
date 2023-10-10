@@ -1,0 +1,36 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Satoshi;
+}
+
+/* .  . . */
+
+.search-area {
+  height: 10vh;
+  /* overflow: hidden; */
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #fff;
+}
+
+.row:nth-child(1) {
+  background-color: #007bff;
+}
+
+.row:nth-child(2) {
+  background-color: #28a745;
+}
